@@ -47,9 +47,9 @@ src/
 The application boots from EventsApp, which loads events-view.fxml, attaches the EventsController, and displays the primary stage.
 
 ### Expected Behavior
-- **Form Validation: Blank title or date → inline warning in the info label.
-- **Event Card Creation: Valid submissions spawn an HBox containing title, ISO-date, and wrapped notes text, styled with rounded corners & padding, then added to the scrollable list.
-- **Form Reset: After a successful add, all fields clear and focus returns to the title box for rapid data entry.
+- **Form Validation**: Blank title or date → inline warning in the info label.
+- **Event Card Creation**: Valid submissions spawn an HBox containing title, ISO-date, and wrapped notes text, styled with rounded corners & padding, then added to the scrollable list.
+- **Form Reset**: After a successful add, all fields clear and focus returns to the title box for rapid data entry.
  
 ---
 
