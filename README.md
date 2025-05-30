@@ -3,10 +3,10 @@
 ### Overview
 This repository contains a small Java FX desktop application that lets a user create and manage a simple list of events. It highlights several modern Java techniques and Java FX features, including:
 
-- **FXML-driven UI & Scene Builder-friendly markup (clean separation of view from logic)
-- **MVC / Controller pattern (EventsApp bootstraps the stage, EventsController owns all event-handling)
-- **Observable UI updates via Java FX property bindings (labels update instantly when state changes)
-- **Maven + OpenJFX plugin for one-command builds and cross-platform packaging
+- **FXML-driven UI & Scene Builder** friendly markup (clean separation of view from logic)
+- **MVC / Controller pattern** (EventsApp bootstraps the stage, EventsController owns all event-handling)
+- **Observable UI updates** via Java FX property bindings (labels update instantly when state changes)
+- **Maven + OpenJFX plugin** for one-command builds and cross-platform packaging
 
 At runtime the user:
 - Enters a title, date, and optional notes.
